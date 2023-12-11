@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black:#000;
+    --white:#ffff;
+    --light-green:green;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
+h2{
+    font-size: 3em;
+    font-weight: 600;
+}
+p{
+    font-size: 1.6em;
+}
+
+body{
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+.btn:focus{
+    outline: none;
+    border: none;
+}
+header{
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+/* top logo design  */
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_log_img{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.top_log_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.top_logo_content h4{
+    font-size: 1em;
+    font-weight: 700;
+}
+.top_logo_content p{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+/* logo right content design  */
+.navbar-nav .nav-item a{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--black) !important;
+}
+form .register{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--light-green);
+    position: relative;
+    padding: 0;
+    margin:0 10px;
+}
+form .register:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--light-green);
+}
+/* hero section design  */
+section{
+    padding: 20px 0;
+}
+.hero{
+    padding: 80px 0;
+}
+.btn-success{
+    background: var(--light-green);
+    color: var(--white);
+    font-size: 1.6em;
+    font-weight: 700;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+}
+.btn-success:hover{
+    background: transparent;
+    border-color: var(--light-green);
+    color: var(--black);
+}
+.btn-outline-success{
+    border-radius: 40px;
+    font-size: 1.6em;
+    font-weight: 600;
+    border-color: var(--light-green);
+    color: var(--black);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn-outline-success:hover{
+    background: var(--light-green);
+    color: var(--white);
+}
+.hero h1{
+    font-size: 5em;
+    font-weight: 600;
+    color: var(--black);
+}
+.hero h3{
+    font-size: 3em;
+    font-weight: 600;
+    color: var(--black);
+    margin: 10px 0;
+}
+.hero h3 span{
+    color: var(--light-green);
+}
+.hero p{
+    width: 60%;
+    font-size: 1.6em;
+    color: var(--black);
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* about section design */
+.about .about-img{
+    height: 400px;
+    overflow: hidden;
+}
+.about .about-img img{
+    object-fit: cover;
+}
+.about h2{
+    margin: 50px 0 20px;
+}
+.about p{
+    font-size: 1.6em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* course section design  */
+.course .card-section{
+    row-gap: 10px;
+}
+.course h5{
+    font-size: 1.6em;
+    font-weight: 700;
+}
+.course p{
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-button .btn-success{
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+.course-button .btn-outline-success{
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 1.4em;
+    border-radius: 0;
+}
+/* contact section design  */
+.contact{
+    padding: 80px 0;
+}
+.contact .top-content h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+.contact .top-content p{
+    font-size: 1.6em;
+    width: 85%;
+    margin: 15px 0;
+}
+.contact .bottom-content .card{
+    padding: 0 10px;
+}
+.contact .bottom-content .phone-icon{
+    background: var(--light-green);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: var(--white);
+    line-height: 40px;
+}
+.contact .bottom-content h5{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.contact .phone-icon i{
+    font-size: 25px;
+    margin-top: 8px;
+}
+.contact form label{
+    font-size: 1.6em;
+}
+.contact form textarea{
+    resize: none;
+}
+.contact form .btn-success{
+    border-radius: 10px;
+}
+.contact .form{
+    padding: 20px;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+/* footer design  */
+footer{
+    padding: 80px 0;
+}
+.footer a{
+    color: var(--black);
+}
+.footer a h4{
+    font-size: 1.2rem;
+}
+.footer a p{
+    font-size: 0.8rem;
+}
+.footer p.para{
+    width: 80%;
+}
+.footer h2.head{
+    font-size: 2em;
+}
+.footer .links{
+    padding-top: 20px;
+}
+.footer .links a{
+    font-size: 1.6em;
+}
+.footer .location-icon{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: var(--white);
+    line-height: 30px;
+    background: rgb(171, 171, 245);
+    border-radius: 50%;
+}
+.footer .contact-us{
+    margin-top: 20px;
+}
+.footer .card-body{
+    padding: 0 10px;
+}
+.copyright{
+    padding: 20px;
+    background: var(--light-green);
+    text-align: center;
+    color: var(--white);
+}

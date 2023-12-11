@@ -1,0 +1,28 @@
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+
+}
+@media screen and (max-width:768px){
+    body{
+        font-size: 9px;
+     }
+}
+@media screen and (max-width:560px){
+    body{
+        font-size: 8px;
+     }
+     .hero h1{
+        text-align: center;
+     }
+     .hero p{
+        width: 90%;
+     }
+     .top_logo_content{
+        display: none;
+     }
+     .hero{
+        padding: 40px 0;
+     }
+}
