@@ -28,9 +28,13 @@ body{
 a{
     text-decoration: none;
 }
+.btn{
+    border: none;
+    box-shadow: none;
+}
 .btn:focus{
     outline: none;
-    border: none;
+    box-shadow: none !important;
 }
 header{
     box-shadow: 0 2px 2px rgba(0,0,0,0.5);
