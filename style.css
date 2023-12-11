@@ -8,6 +8,9 @@
     --white:#ffff;
     --light-green:green;
 }
+html{
+    scroll-behavior: smooth;
+}
 h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 0;
 }
@@ -31,6 +34,11 @@ a{
 }
 header{
     box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: var(--white);
 }
 /* top logo design  */
 .navbar-brand{
