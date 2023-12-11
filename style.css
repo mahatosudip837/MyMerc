@@ -38,6 +38,14 @@ header{
     justify-content: center;
     align-items: center;
 }
+.navbar-light .navbar-toggler{
+    border: none;
+}
+.navbar-light .navbar-toggler:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 .top_log_img{
     height: 80px;
     width: 80px;

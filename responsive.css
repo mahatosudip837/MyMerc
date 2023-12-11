@@ -8,6 +8,9 @@
     body{
         font-size: 9px;
      }
+     form .register{
+        margin: 0 10px 0 0;
+     }
 }
 @media screen and (max-width:560px){
     body{
