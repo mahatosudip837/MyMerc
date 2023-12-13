@@ -1,3 +1,5 @@
+// code for faq section --------------
+
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach(item => {
